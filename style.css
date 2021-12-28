@@ -967,7 +967,56 @@ body{
   display: none;
   z-index: 22;
 }
+.popup--40 {
+  top: 10%;
+  left: 5%;
+  /* background: rgb(219, 219, 219); */
+  border: 0;
+  color: black;
+  display: none;
+  z-index: 23;
+}
 
+.popup--41 {
+  top: 40%;
+  left: 15%;
+  /* background: rgb(219, 219, 219); */
+  border: 0;
+  color: black;
+  display: none;
+  z-index: 24;
+}
+
+.popup--42 {
+  top: 70%;
+  left: 8%;
+  background: #EBEBEB;
+  border: 0;
+  color: black;
+  display: none;
+  z-index: 30;
+}
+
+.popup--42.ui-state-hover {
+  background: #EBEBEB;
+  border: 0;
+  color: black;
+}
+
+.popup--42 .popup-inner {
+  padding: 50px 25px 20px;
+  font-family: 'SpoqaHanSansRegular';
+}
+
+.popup--42 .popup-name {
+  color: black;
+  font-family: 'SpoqaHanSansBold';
+}
+
+.popup--42 > .popup-inner > a {
+  overflow: hidden;
+  word-break: break-all;
+}
 .popup--44 {
   top: 22%;
   left: 13%;
