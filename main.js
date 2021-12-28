@@ -387,6 +387,24 @@ var popupCount = 40;
             updateCounterStatus($('.popup--39'), popupCount);
         }
     });
+      $("#draggable40").draggable({
+        start: function () {
+            popupCount++;
+            updateCounterStatus($('.popup--40'), popupCount);
+        }
+    });
+      $("#draggable41").draggable({
+        start: function () {
+            popupCount++;
+            updateCounterStatus($('.popup--41'), popupCount);
+        }
+    });
+      $("#draggable42").draggable({
+        start: function () {
+            popupCount++;
+            updateCounterStatus($('.popup--42'), popupCount);
+        }
+    });
       $("#draggable44").draggable({
         start: function () {
             popupCount++;
@@ -736,6 +754,20 @@ function OpenPopup(targetDate)
         if(!$('.popup--39').is(':visible'))
         {
           $('.popup--39').show();
+        }
+      break;
+      case "WED. 24 SEP. 2036":
+        if(!$('.popup--40').is(':visible'))
+        {
+          $('.popup--40').show();
+        }
+        if(!$('.popup--41').is(':visible'))
+        {
+          $('.popup--41').show();
+        }
+        if(!$('.popup--42').is(':visible'))
+        {
+          $('.popup--42').show();
         }
       break;
       case "SAT. 03 JAN. 2037":
